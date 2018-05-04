@@ -44,7 +44,7 @@ public class BasicModuleFormController {
 		
 	}
 	
-	@RequestMapping(value = "module/conceptName/viewconceptNames", method = RequestMethod.GET)
+	@RequestMapping(value = "module/conceptName/viewconceptNames.form", method = RequestMethod.GET)
 	public String showForm() {
 		return "module/conceptName/viewconceptNamesForm";
 	}
