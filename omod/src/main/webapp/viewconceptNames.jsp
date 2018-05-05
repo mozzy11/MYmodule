@@ -36,7 +36,7 @@
                        <td>${cn.locale } </td>
                         <td>${ cn.localePreferred } </td>
                        <td>${ cn.conceptNameType } </td>
-                        <td> <c:out  escapeXml ="true" value="${cn,name}"/></td>
+                        <td> <c:out  escapeXml ="true" value="${cn.name}"/></td>
                        <td>
                         <c:forEach var="t" items="${cn.tags}">
                        
